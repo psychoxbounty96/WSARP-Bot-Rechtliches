@@ -1,31 +1,20 @@
-# WSA RP Bot – Legal Website
+# WSA RP Bot – GitHub Pages
 
-Statische GitHub-Pages-Website ohne externe Fonts, Analyse- oder Marketingdienste.
+Saubere, statische Terminal-Website ohne externe Fonts, Cookies, Tracking oder Bild-CDNs.
 
-## Vor Veröffentlichung zwingend
-1. Alle `[PLATZHALTER]` in HTML-Dateien ersetzen.
-2. Verantwortlichen, ladungsfähige Anschrift und Kontaktadresse prüfen.
-3. Supabase-Projektregion, Nitrado-, Discord-, GitHub- und Supabase-Verträge/Datenschutzhinweise prüfen.
-4. Tatsächliche Tabellen und Fristen an `supabase/schema.sql` anpassen.
-5. Link zu Datenschutz und Nutzungsbedingungen im Bot-Verknüpfungsdialog anzeigen.
-6. Version der Bedingungen serverseitig speichern.
+## Veröffentlichung
+1. Den **Inhalt** dieses Ordners in ein GitHub-Repository laden.
+2. Unter **Settings → Pages** den gewünschten Branch als Quelle auswählen.
+3. Im Bot vor der Verknüpfung direkt auf `datenschutz.html` und `nutzungsbedingungen.html` verlinken.
 
-## GitHub Pages
-Repository erstellen, Inhalt in den Standard-Branch hochladen und unter Settings → Pages den Branch als Quelle aktivieren. Optional eine eigene Domain über `CNAME` konfigurieren.
+## Vor dem Onlinestellen prüfen
+- Sind Kontaktweg und verantwortliche Person korrekt?
+- Stimmen die beschriebenen Datenarten und Speicherfristen mit Supabase und dem Bot überein?
+- Werden Rohereignisse nach 30 Tagen, Protokolle nach 90 Tagen und inaktive Konten nach 12 Monaten technisch bereinigt?
+- Werden abhängige Quest- und Inventardaten bei Löschung tatsächlich entfernt?
 
-## Bot-Verknüpfung
-Empfohlener Text:
+## Empfohlener Bot-Text
+> Bevor du deinen Discord-Account mit deinem DayZ-Gamertag verknüpfst, kannst du die Datenschutzerklärung und Nutzungsbedingungen öffnen. Mit „Verknüpfen“ stimmst du den Nutzungsbedingungen Version 1.0 vom 31.07.2026 zu.
 
-> Mit „Verknüpfen“ bestätigst du die Nutzungsbedingungen (Version 1.0 vom 30.07.2026). Die Datenschutzerklärung informiert dich darüber, wie deine Daten verarbeitet werden.
-
-Buttons/Links:
-- Nutzungsbedingungen öffnen
-- Datenschutzerklärung öffnen
-- Verknüpfen & zustimmen
-- Abbrechen
-
-## Keine Rechtsberatung
-Die Inhalte sind eine sorgfältig ausgearbeitete Vorlage, ersetzen aber keine individuelle Rechtsberatung. Betreiberangaben, tatsächliche Datenflüsse und Verträge müssen vor Veröffentlichung geprüft werden.
-
-## Design-Update: PKG Terminal
-Die sichtbare Website wurde auf eine responsive CRT-/Terminal-Oberfläche im WSA-Stil umgebaut. Alle Effekte bestehen aus lokalem HTML/CSS/JavaScript; es werden keine externen Fonts, Tracker oder Bild-CDNs geladen.
+## Rechtlicher Hinweis
+Die Texte sind eine kompakte, sorgfältig erstellte Vorlage für den beschriebenen nicht kommerziellen Bot. Sie ersetzen keine individuelle Rechtsberatung. Bei Monetarisierung, öffentlicher Bot-Verbreitung oder erheblich erweiterten Datenverarbeitungen sollten die Angaben neu geprüft werden.
